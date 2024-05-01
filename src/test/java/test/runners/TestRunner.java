@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import test.stepDefinations.Hooks;
 
 @CucumberOptions(
-        plugin = {"html:target/cucumber-html-report",
+        plugin = {"html:target/cucumber-html-report.html",
                 "pretty"
         },
         monochrome = true,
@@ -26,7 +26,6 @@ public class TestRunner extends Hooks {
 
     @BeforeClass(alwaysRun = true)
     public void setUpClass() {
-        System.setProperty("cucumber.filter.tags", System.getProperty("tags", "@smoke"));
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
     }
 

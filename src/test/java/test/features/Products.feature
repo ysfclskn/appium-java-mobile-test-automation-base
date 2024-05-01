@@ -5,4 +5,4 @@ Feature: Products Test Suite
     When login with registered user on login page
     Then verify successful login
     When click product list on homepage
-    Then verify products is exist
+    Then verify products is exist on products page

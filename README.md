@@ -47,3 +47,6 @@ Right click to "testng.xml" then click Run
 ├─ pom.xml
 └─ testng.xml
 ```
+# Support
+
+Contact me ysfclskn94@hotmail.com

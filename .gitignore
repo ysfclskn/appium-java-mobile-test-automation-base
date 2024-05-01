@@ -29,4 +29,4 @@ build/
 !**/src/test/**/build/
 
 ### Allure ###
-.allure-results
+/allure-results

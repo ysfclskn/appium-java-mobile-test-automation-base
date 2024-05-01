@@ -27,7 +27,7 @@ mvn test -D"cucumber.filter.tags=@verify_products"
 
 ### TestNG Run
 
-Right click to "tesng.xml" then click Run
+Right click to "testng.xml" then click Run
 
 # Reporting
 
